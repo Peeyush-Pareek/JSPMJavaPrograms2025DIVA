@@ -1,14 +1,15 @@
-class swaptemp{
-	public static void main (String[]args){
-		int a = 10;
-		int b = 5;
-		int temp = 0;
-		
-		System.out.println("Number for swap: a = "+a+" b = "+b);
+class swaptemp
+{
+	public static void main(String []args)
+	{
+		int a=10,b=2,temp;
+		System.out.println("before swaping:",a,b);
+		temp=a;
+		a=b;
+		b=temp;
+		System.out.println("After swaping:",a,b);
+		System.out.print(a);
+		System.out.println(b);
 
-		temp = a;
-		a = b;
-		b = temp;
-		System.out.println("Swapped Number : a = "+a+" b = "+b);
- }
+	}
 }
